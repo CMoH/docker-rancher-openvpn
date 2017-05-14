@@ -1,6 +1,6 @@
 #!/bin/bash
 
-DOCKER_IMAGE="mdns/rancher-openvpn"
+DOCKER_IMAGE="apifocal/rancher-openvpn"
 DOCKER_TAG="$1"
 
 if [ "$DOCKER_TAG" = "" ]
